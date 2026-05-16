@@ -1,0 +1,2664 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "hi", "hello", "hey", "Good morning", "Good evening", "Is anyone there", "hii", "helo"],
+      "responses": ["Hello! I am the REVA University Assistant. How can I help you today?"]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["who are you", "who are u", "what is your name", "your name", "what are you", "tell me about yourself", "who r u", "what's your name"],
+      "responses": ["I am the REVA University Assistant, an AI chatbot here to help you with information about REVA University academics, campus facilities, admissions, and student life."]
+    },
+    {
+      "tag": "reva_known_for",
+      "patterns": [
+        "What is REVA University known for",
+        "Tell me about REVA University",
+        "Why is REVA famous",
+        "Highlights of REVA University"
+      ],
+      "responses": [
+        "REVA University is known for its modern infrastructure, AI-driven education, strong engineering and management programs, and excellent placement opportunities."
+      ]
+    },
+    {
+      "tag": "reva_established",
+      "patterns": [
+        "When was REVA University established",
+        "REVA University founding year",
+        "When did REVA start"
+      ],
+      "responses": [
+        "REVA University was established in 2012 under the Government of Karnataka Act No.13."
+      ]
+    },
+    {
+      "tag": "reva_location",
+      "patterns": [
+        "Where is REVA University located",
+        "Location of REVA University",
+        "Address of REVA University"
+      ],
+      "responses": [
+        "REVA University is located at Rukmini Knowledge Park, Kattigenahalli, Yelahanka, Bengaluru, Karnataka."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are the mid semester exams",
+        "When are internal exams",
+        "When are the end semester exams",
+        "Exam schedule",
+        "When are the exams scheduled",
+        "exam dates",
+        "exam schedule",
+        "semester exams",
+        "SEE exams"
+      ],
+      "responses": [
+        "REVA University exam schedule:\n\nIA 2: 6th May 2026 to 8th May 2026\n\nSemester End Practicals: 11th May 2026 to 16th May 2026\n\nSemester End Theory (SEE): 18th May 2026 to 30th May 2026"
+      ]
+    },
+    {
+      "tag": "exam_timetable",
+      "patterns": [
+        "Where can I find the exam timetable",
+        "How to check exam timetable",
+        "Exam timetable location"
+      ],
+      "responses": [
+        "You can find the exam timetable on the REVA University website, student portal, or department notice boards."
+      ]
+    },
+    {
+      "tag": "internal_assessments",
+      "patterns": [
+        "How many internal assessments are there",
+        "Number of internal exams",
+        "How many IAs are there"
+      ],
+      "responses": [
+        "There are two internal assessments in each semester: IA1 and IA2."
+      ]
+    },
+    {
+      "tag": "ia2_dates",
+      "patterns": [
+        "when is ia 2",
+        "ia 2 dates",
+        "ia2 schedule",
+        "internal assessment 2 dates",
+        "when is IA 2",
+        "ia2 exam dates",
+        "second internal assessment dates"
+      ],
+      "responses": [
+        "IA 2 is scheduled from 6th May 2026 to 8th May 2026."
+      ]
+    },
+    {
+      "tag": "sem_end_practicals",
+      "patterns": [
+        "when is sem end practicals",
+        "semester end practicals dates",
+        "sem end practicals schedule",
+        "practical exam dates",
+        "when are practical exams",
+        "semester practicals",
+        "end semester practicals"
+      ],
+      "responses": [
+        "Semester end practicals are scheduled from 11th May 2026 to 16th May 2026."
+      ]
+    },
+    {
+      "tag": "sem_end_theory",
+      "patterns": [
+        "when is sem end theory",
+        "semester end theory dates",
+        "sem end theory schedule",
+        "theory exam dates",
+        "when are theory exams",
+        "semester theory exams",
+        "end semester theory",
+        "see dates",
+        "semester end exam dates",
+        "SEE dates",
+        "when is SEE",
+        "see exam dates",
+        "semester end examination",
+        "SEE schedule"
+      ],
+      "responses": [
+        "Semester end theory exams are scheduled from 18th May 2026 to 30th May 2026."
+      ]
+    },
+    {
+      "tag": "attendance_requirement",
+      "patterns": [
+        "What is the minimum attendance required",
+        "Attendance requirement",
+        "How much attendance is required"
+      ],
+      "responses": [
+        "Students must maintain at least 75 percent attendance in each subject."
+      ]
+    },
+    {
+      "tag": "low_attendance",
+      "patterns": [
+        "What happens if attendance is below 75",
+        "Can I write exam with low attendance",
+        "Attendance below 75"
+      ],
+      "responses": [
+        "If attendance is below 75 percent, the student will not be allowed to write the examinations."
+      ]
+    },
+    {
+      "tag": "assignments_per_subject",
+      "patterns": [
+        "How many assignments are given per subject",
+        "Assignments per subject",
+        "Number of assignments"
+      ],
+      "responses": [
+        "Each subject has two assignments: one for IA1 and one for IA2."
+      ]
+    },
+    {
+      "tag": "internal_marks_weightage",
+      "patterns": [
+        "What is the weightage of internal marks",
+        "Internal marks distribution",
+        "Marks for IA and assignments"
+      ],
+      "responses": [
+        "Internal assessments carry 20 marks and assignments carry 5 marks."
+      ]
+    },
+    {
+      "tag": "semester6_subjects",
+      "patterns": [
+        "What subjects are in semester 6",
+        "Core subjects semester 6",
+        "Subjects in sem 6"
+      ],
+      "responses": [
+        "Semester 6 subjects include Natural Language Processing, Computer Vision and Applications, Advanced IoT, AI with Data Cloud Master, Software Development through Experiential Learning, and Indian Knowledge System."
+      ]
+    },
+    {
+      "tag": "nlp_syllabus",
+      "patterns": [
+        "What is the syllabus for NLP",
+        "Topics in NLP course",
+        "NLP syllabus"
+      ],
+      "responses": [
+        "The NLP syllabus includes language processing with Python, NLTK, text classification, text summarization, topic modeling, sentiment analysis, and named entity recognition."
+      ]
+    },
+    {
+      "tag": "cse_department_location",
+      "patterns": [
+        "Where is the CSE department located",
+        "CSE department location",
+        "Which block is CSE"
+      ],
+      "responses": [
+        "The Computer Science and Engineering department is located in the Swami Vivekananda Block (SVB)."
+      ]
+    },
+    {
+      "tag": "csse_hod",
+      "patterns": [
+        "Who is the hod of CSSE",
+        "Head of CSSE department",
+        "CSSE hod name"
+      ],
+      "responses": [
+        "The Head of the CSSE department is Dr. B. Muthukumar."
+      ]
+    },
+    {
+      "tag": "library_location",
+      "patterns": [
+        "Where is the university library located",
+        "Library location",
+        "Where is central library"
+      ],
+      "responses": [
+        "The Central Library is located at the center of the REVA University campus."
+      ]
+    },
+    {
+      "tag": "library_timings",
+      "patterns": [
+        "What are the library timings",
+        "Library working hours",
+        "When does the library open"
+      ],
+      "responses": [
+        "The central library is open from 8 AM to 12 midnight on regular days and 9 AM to 11 PM on holidays."
+      ]
+    },
+    {
+      "tag": "library_books_limit",
+      "patterns": [
+        "How many books can a student borrow",
+        "Book borrowing limit"
+      ],
+      "responses": [
+        "B.Tech students can borrow up to 5 books while M.Tech and MCA students can borrow up to 10 books."
+      ]
+    },
+    {
+      "tag": "library_digital_resources",
+      "patterns": [
+        "Does the library provide digital resources",
+        "Online journals in REVA",
+        "Ebooks in library"
+      ],
+      "responses": [
+        "Yes, the REVA library provides access to thousands of journals and over 250,000 ebooks through platforms like IEEE Xplore and Springer."
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities are available on campus",
+        "Campus facilities",
+        "Amenities in REVA"
+      ],
+      "responses": [
+        "REVA campus provides healthcare services, auditoriums, food courts, sports facilities, banking services, green parks and transportation."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": [
+        "Is there a cafeteria on campus",
+        "Food court in REVA",
+        "Where can students eat",
+        "food court in reva",
+        "cafeteria",
+        "food options",
+        "where to eat in campus"
+      ],
+      "responses": [
+        "Yes, REVA University has a large food court offering multiple cuisines including North Indian, South Indian, and Chinese."
+      ]
+    },
+    {
+      "tag": "sports_facilities",
+      "patterns": [
+        "Are there sports facilities",
+        "Sports in REVA",
+        "Gym in REVA"
+      ],
+      "responses": [
+        "REVA provides sports facilities including cricket, football, basketball, volleyball, tennis, indoor games, and a modern gym."
+      ]
+    },
+    {
+      "tag": "hostel_availability",
+      "patterns": [
+        "Is hostel available for students",
+        "Hostel in REVA",
+        "Does REVA provide hostel",
+        "Is hostel available",
+        "Is hostel available?",
+        "hostel facility",
+        "hostel facilities in reva",
+        "accommodation",
+        "boys hostel",
+        "girls hostel",
+        "hostel for boys",
+        "hostel for girls"
+      ],
+      "responses": [
+        "Yes, REVA University has 9 hostels for boys and girls with accommodation for more than 3000 students."
+      ]
+    },
+    {
+      "tag": "hostel_rules",
+      "patterns": [
+        "What are the hostel rules",
+        "Hostel curfew timing",
+        "Hostel regulations"
+      ],
+      "responses": [
+        "Students must return to the hostel by 8 PM and attendance is taken nightly. Alcohol, smoking and prohibited appliances are not allowed."
+      ]
+    },
+    {
+      "tag": "hostel_fees",
+      "patterns": [
+        "What are the hostel fees",
+        "Cost of hostel",
+        "Hostel fee structure"
+      ],
+      "responses": [
+        "Hostel fees range approximately from 1.45 lakh to 2.85 lakh per year depending on room type."
+      ]
+    },
+    {
+      "tag": "clubs_available",
+      "patterns": [
+        "What clubs are available in REVA",
+        "Student clubs in REVA",
+        "Technical clubs"
+      ],
+      "responses": [
+        "Popular clubs include OSCode, GDG, FORCE, Yantra, and C-Bits."
+      ]
+    },
+    {
+      "tag": "join_coding_club",
+      "patterns": [
+        "How can I join the coding club",
+        "How to join clubs in REVA"
+      ],
+      "responses": [
+        "Students can join clubs during orientation or club fairs. Some clubs may also conduct entrance tests."
+      ]
+    },
+    {
+      "tag": "hackathons_reva",
+      "patterns": [
+        "Are hackathons organized at REVA",
+        "Hackathons in REVA"
+      ],
+      "responses": [
+        "Yes, REVA hosts major hackathons like REVA Hack, HaccVerse, and SheCodes."
+      ]
+    },
+    {
+      "tag": "upcoming_events",
+      "patterns": [
+        "Are there any upcoming events",
+        "Events in REVA"
+      ],
+      "responses": [
+        "Upcoming events include REVA Rift, Hack Sprint 2026, and Revotsava."
+      ]
+    },
+    {
+      "tag": "techfest_dates",
+      "patterns": [
+        "When is the next tech fest",
+        "Tech fest dates"
+      ],
+      "responses": [
+        "Major events include R Summit from March 9 to 11, RISE from April 8 to 9, and REVOLT from April 10 to 11."
+      ]
+    },
+    {
+      "tag": "cultural_events",
+      "patterns": [
+        "What cultural events are held in REVA",
+        "Cultural festivals in REVA"
+      ],
+      "responses": [
+        "Major cultural events include Revotsava, Harmonics, and Freshers Day."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are offered at REVA University",
+        "Programs available in REVA"
+      ],
+      "responses": [
+        "REVA offers more than 100 programs including BTech, BBA, BCA, BCom, MBA, MCA, MTech, MSc and PhD programs."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "What is the admission process",
+        "How to apply to REVA",
+        "What is the admission process?",
+        "admission process",
+        "how to take admission",
+        "how to get admission",
+        "how to apply for admission",
+        "admission kaise le",
+        "admission details",
+        "how to join reva",
+        "how can i take admission"
+      ],
+      "responses": [
+        "Students must apply through the REVA admission portal, take REVA CET or other accepted entrance exams and attend counseling."
+      ]
+    },
+    {
+      "tag": "eligibility_criteria",
+      "patterns": [
+        "What are the eligibility criteria",
+        "Eligibility for BTech in REVA"
+      ],
+      "responses": [
+        "For BTech, students must pass 10+2 with Physics and Mathematics and at least 45 percent aggregate marks."
+      ]
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": [
+        "What documents are required for admission",
+        "Admission documents"
+      ],
+      "responses": [
+        "Students must submit 10th and 12th marksheets, entrance exam scorecards, transfer certificate, ID proof and passport photos."
+      ]
+    },
+    {
+      "tag": "contact_admin",
+      "patterns": [
+        "How can I contact the administration office",
+        "Administration contact"
+      ],
+      "responses": [
+        "You can contact the administration at +91 90211 90211 or email info@reva.edu.in."
+      ]
+    },
+    {
+      "tag": "university_helpline",
+      "patterns": [
+        "What is the university helpline number",
+        "REVA contact number"
+      ],
+      "responses": [
+        "The REVA University helpline numbers are +91 90211 90211 and 080 4696 6966."
+      ]
+    },
+    {
+      "tag": "admission_office_location",
+      "patterns": [
+        "Where is the admission office located",
+        "Admission office location"
+      ],
+      "responses": [
+        "The admission office is located on the ground floor of the Administrative Block at the REVA University campus."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "bye", "goodbye", "see you", "ok bye", "okay bye", "take care", "see ya", "bye bye", "have a nice day", "catch you later"],
+      "responses": [
+        "Goodbye! Feel free to reach out if you have any more questions about REVA University.",
+        "Bye! Have a great day!",
+        "Take care! Visit again for any REVA University queries."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thanks", "Thank you", "thanks", "thank you", "thank u", "thanx", "thx", "ty", "thankyou"],
+      "responses": [
+        "You're welcome! Let me know if you need any other information about REVA University.",
+        "Happy to help! Feel free to ask more questions anytime.",
+        "My pleasure! I'm here to assist with any REVA University queries."
+      ]
+    },
+    {
+      "tag": "cgpa_calculation",
+      "patterns": [
+        "How is CGPA calculated",
+        "CGPA calculation method",
+        "Explain CGPA"
+      ],
+      "responses": [
+        "CGPA is calculated by averaging the grade points obtained in all semesters."
+      ]
+    },
+    {
+      "tag": "sgpa_calculation",
+      "patterns": [
+        "How is SGPA calculated",
+        "SGPA formula",
+        "Explain SGPA"
+      ],
+      "responses": [
+        "SGPA is calculated by dividing the total credit points by total credits in a semester."
+      ]
+    },
+    {
+      "tag": "grading_scale",
+      "patterns": [
+        "What is grading scale",
+        "Grades system",
+        "Explain grades"
+      ],
+      "responses": [
+        "The grading system assigns letter grades based on marks obtained in exams."
+      ]
+    },
+    {
+      "tag": "credit_system",
+      "patterns": [
+        "Explain credit system",
+        "What are credits",
+        "How credits work"
+      ],
+      "responses": [
+        "Credits represent the workload of a subject and are used to calculate SGPA and CGPA."
+      ]
+    },
+    {
+      "tag": "semester_duration",
+      "patterns": [
+        "Duration of semester",
+        "How long is a semester",
+        "Semester length"
+      ],
+      "responses": [
+        "Each semester typically lasts around 4 to 6 months."
+      ]
+    },
+    {
+      "tag": "backlog_clear",
+      "patterns": [
+        "How to clear backlog",
+        "Backlog exam process",
+        "Clear failed subject"
+      ],
+      "responses": [
+        "Backlogs can be cleared by appearing for supplementary exams."
+      ]
+    },
+    {
+      "tag": "revaluation_process",
+      "patterns": [
+        "How to apply for revaluation",
+        "Revaluation process",
+        "Rechecking exam paper"
+      ],
+      "responses": [
+        "Students can apply for revaluation through the university portal after results are announced."
+      ]
+    },
+    {
+      "tag": "internal_marks_breakup",
+      "patterns": [
+        "Internal marks breakup",
+        "IA marks distribution",
+        "How IA marks divided"
+      ],
+      "responses": [
+        "Internal marks include 20 marks for IA and 5 marks for assignments."
+      ]
+    },
+    {
+      "tag": "assignment_count",
+      "patterns": [
+        "How many assignments per subject",
+        "Assignment count",
+        "Assignments per IA"
+      ],
+      "responses": [
+        "Each subject has 2 assignments, one for IA1 and one for IA2."
+      ]
+    },
+    {
+      "tag": "passing_marks",
+      "patterns": [
+        "Minimum passing marks",
+        "Pass criteria",
+        "Marks required to pass"
+      ],
+      "responses": [
+        "Students must pass both internal and semester-end exams to clear a subject."
+      ]
+    },
+    {
+      "tag": "attendance_importance",
+      "patterns": [
+        "Why attendance important",
+        "Importance of attendance",
+        "Attendance rules"
+      ],
+      "responses": [
+        "Attendance is mandatory as it ensures academic participation and eligibility for exams."
+      ]
+    },
+    {
+      "tag": "exam_timetable_location",
+      "patterns": [
+        "Where to find timetable",
+        "Exam timetable",
+        "Exam schedule location"
+      ],
+      "responses": [
+        "The exam timetable is available on the official REVA University website and student portal."
+      ]
+    },
+    {
+      "tag": "semester_system",
+      "patterns": [
+        "Explain semester system",
+        "Semester structure",
+        "What is semester system"
+      ],
+      "responses": [
+        "The semester system divides the academic year into two parts with exams at the end of each."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is academic calendar",
+        "Academic schedule",
+        "University calendar"
+      ],
+      "responses": [
+        "The academic calendar contains important dates like exams, holidays, and semester timelines."
+      ]
+    },
+    {
+      "tag": "course_outcomes",
+      "patterns": [
+        "What is CO",
+        "Course outcome meaning",
+        "Explain CO"
+      ],
+      "responses": [
+        "Course Outcomes define the knowledge and skills gained after completing a course."
+      ]
+    },
+    {
+      "tag": "program_outcomes",
+      "patterns": [
+        "What is PO",
+        "Program outcome meaning",
+        "Explain PO"
+      ],
+      "responses": [
+        "Program Outcomes describe the skills students gain after completing their degree."
+      ]
+    },
+    {
+      "tag": "program_structure",
+      "patterns": [
+        "Program structure",
+        "Course structure details",
+        "Degree structure"
+      ],
+      "responses": [
+        "Program structure includes semesters, subjects, credits, and evaluation methods."
+      ]
+    },
+    {
+      "tag": "elective_subjects",
+      "patterns": [
+        "What are electives",
+        "Elective subjects",
+        "Optional subjects"
+      ],
+      "responses": [
+        "Electives are optional subjects that students can choose based on their interests."
+      ]
+    },
+    {
+      "tag": "open_electives",
+      "patterns": [
+        "What is open elective",
+        "Open elective meaning",
+        "Cross department subject"
+      ],
+      "responses": [
+        "Open electives allow students to study subjects from other departments."
+      ]
+    },
+    {
+      "tag": "interdisciplinary_learning",
+      "patterns": [
+        "What is interdisciplinary learning",
+        "Cross domain learning",
+        "Multiple subjects learning"
+      ],
+      "responses": [
+        "Interdisciplinary learning combines knowledge from multiple fields to solve complex problems."
+      ]
+    },
+    {
+      "tag": "practical_learning",
+      "patterns": [
+        "What is practical learning",
+        "Hands-on learning",
+        "Lab learning"
+      ],
+      "responses": [
+        "Practical learning involves hands-on experience through labs and projects."
+      ]
+    },
+    {
+      "tag": "experiential_learning",
+      "patterns": [
+        "What is experiential learning",
+        "Learning by doing",
+        "Practical experience learning"
+      ],
+      "responses": [
+        "Experiential learning focuses on gaining knowledge through real-world experience."
+      ]
+    },
+    {
+      "tag": "project_based_learning",
+      "patterns": [
+        "What is project based learning",
+        "Learning through projects",
+        "Explain project learning"
+      ],
+      "responses": [
+        "Project-based learning involves solving real-world problems through projects."
+      ]
+    },
+    {
+      "tag": "mooc_courses",
+      "patterns": [
+        "What is MOOC",
+        "Online courses",
+        "Explain MOOC"
+      ],
+      "responses": [
+        "MOOCs are online courses that provide additional learning opportunities."
+      ]
+    },
+    {
+      "tag": "nptel_courses",
+      "patterns": [
+        "What is NPTEL",
+        "NPTEL courses",
+        "Explain NPTEL"
+      ],
+      "responses": [
+        "NPTEL provides online technical courses from IITs and other institutions."
+      ]
+    },
+    {
+      "tag": "internship_details",
+      "patterns": [
+        "What is internship",
+        "Internship details",
+        "Explain internship"
+      ],
+      "responses": [
+        "Internship is practical training in industry to gain real-world experience."
+      ]
+    },
+    {
+      "tag": "mini_project",
+      "patterns": [
+        "What is mini project",
+        "Mini project details",
+        "Explain mini project"
+      ],
+      "responses": [
+        "Mini project is a small-scale project done during coursework."
+      ]
+    },
+    {
+      "tag": "major_project",
+      "patterns": [
+        "What is major project",
+        "Final year project",
+        "Explain major project"
+      ],
+      "responses": [
+        "Major project is a final year project involving research or development."
+      ]
+    },
+    {
+      "tag": "research_project",
+      "patterns": [
+        "What is research project",
+        "Research work",
+        "Explain research"
+      ],
+      "responses": [
+        "Research project focuses on innovation and solving new problems."
+      ]
+    },
+    {
+      "tag": "lab_component",
+      "patterns": [
+        "What is lab component",
+        "Lab subject",
+        "Practical subject"
+      ],
+      "responses": [
+        "Lab component includes practical sessions associated with theory subjects."
+      ]
+    },
+    {
+      "tag": "course_objective",
+      "patterns": [
+        "What is course objective",
+        "Objective of subject",
+        "Goal of course"
+      ],
+      "responses": [
+        "Course objective defines the purpose and goal of the subject."
+      ]
+    },
+    {
+      "tag": "teaching_methodology",
+      "patterns": [
+        "Teaching methods",
+        "How subjects are taught",
+        "Teaching methodology"
+      ],
+      "responses": [
+        "Teaching includes lectures, labs, projects, and interactive sessions."
+      ]
+    },
+    {
+      "tag": "blended_learning",
+      "patterns": [
+        "What is blended learning",
+        "Online offline learning",
+        "Mixed learning"
+      ],
+      "responses": [
+        "Blended learning combines classroom teaching with online resources."
+      ]
+    },
+    {
+      "tag": "flipped_classroom",
+      "patterns": [
+        "What is flipped classroom",
+        "Flipped learning",
+        "Classroom flip"
+      ],
+      "responses": [
+        "In flipped classroom, students learn content at home and discuss in class."
+      ]
+    },
+    {
+      "tag": "lms_system",
+      "patterns": [
+        "What is LMS",
+        "Learning management system",
+        "Online learning system"
+      ],
+      "responses": [
+        "LMS is a platform used to manage courses, assignments, and learning materials."
+      ]
+    },
+    {
+      "tag": "digital_learning",
+      "patterns": [
+        "What is digital learning",
+        "Online education",
+        "E learning"
+      ],
+      "responses": [
+        "Digital learning uses online platforms and tools for education."
+      ]
+    },
+    {
+      "tag": "placement_support",
+      "patterns": [
+        "Does REVA provide placements",
+        "Placement support",
+        "Do you have placement cell",
+        "placements in reva",
+        "placement details reva",
+        "placements reva university"
+      ],
+      "responses": [
+        "Yes, REVA has a dedicated placement cell that supports students with training and job opportunities. REVA has NAAC A+ accreditation and students are placed in top companies with packages ranging from 4 LPA to 45 LPA depending on the company and student profile."
+      ]
+    },
+    {
+      "tag": "placement_training",
+      "patterns": [
+        "Is placement training provided",
+        "Placement preparation",
+        "Training for jobs"
+      ],
+      "responses": [
+        "Yes, REVA provides placement training including aptitude, technical, and soft skills training."
+      ]
+    },
+    {
+      "tag": "companies_visit",
+      "patterns": [
+        "Which companies visit REVA",
+        "Top recruiters",
+        "Companies hiring"
+      ],
+      "responses": [
+        "Companies like Infosys, TCS, Wipro, Amazon, and many others visit REVA for placements."
+      ]
+    },
+    {
+      "tag": "average_package",
+      "patterns": [
+        "What is average package",
+        "Average salary",
+        "Placement salary"
+      ],
+      "responses": [
+        "The average package varies each year depending on the course and company."
+      ]
+    },
+    {
+      "tag": "highest_package",
+      "patterns": [
+        "Highest package",
+        "Top salary",
+        "Maximum salary"
+      ],
+      "responses": [
+        "The highest package varies every year depending on student performance and companies."
+      ]
+    },
+    {
+      "tag": "internship_support",
+      "patterns": [
+        "Does REVA provide internships",
+        "Internship opportunities",
+        "Internship help"
+      ],
+      "responses": [
+        "Yes, REVA provides internship opportunities and industry exposure as part of the curriculum."
+      ]
+    },
+    {
+      "tag": "placement_cell_info",
+      "patterns": [
+        "What is placement cell",
+        "Placement department",
+        "Career support"
+      ],
+      "responses": [
+        "The placement cell helps students with training, internships, and job placements."
+      ]
+    },
+    {
+      "tag": "coding_clubs_list",
+      "patterns": [
+        "Coding clubs",
+        "Tech clubs",
+        "Programming clubs"
+      ],
+      "responses": [
+        "Coding clubs include Oscode, GDG, Force, Yantra, and C Bits."
+      ]
+    },
+    {
+      "tag": "club_joining_process",
+      "patterns": [
+        "How to join clubs",
+        "Join student club",
+        "Club registration process"
+      ],
+      "responses": [
+        "Students can join clubs during orientation or by clearing entrance tests for some clubs."
+      ]
+    },
+    {
+      "tag": "hackathons_conducted",
+      "patterns": [
+        "Are hackathons conducted",
+        "Hackathon events",
+        "Coding competitions"
+      ],
+      "responses": [
+        "Yes, REVA organizes hackathons like REVA HACK, HaccVerse, and SheCodes."
+      ]
+    },
+    {
+      "tag": "hackathon_participation_process",
+      "patterns": [
+        "How to participate in hackathon",
+        "Join hackathon",
+        "Hackathon registration"
+      ],
+      "responses": [
+        "Students can register through platforms like Devfolio or Unstop and participate in teams."
+      ]
+    },
+    {
+      "tag": "hackathon_team_size_info",
+      "patterns": [
+        "Hackathon team size",
+        "How many members in team",
+        "Team requirement"
+      ],
+      "responses": [
+        "Hackathons usually require teams of 3 to 5 members."
+      ]
+    },
+    {
+      "tag": "campus_wifi_info",
+      "patterns": [
+        "Is wifi available",
+        "Campus wifi",
+        "Internet facility"
+      ],
+      "responses": [
+        "Yes, WiFi is available across the REVA University campus."
+      ]
+    },
+    {
+      "tag": "healthcare_facility",
+      "patterns": [
+        "Is there medical facility",
+        "Health care center",
+        "Doctor availability",
+        "medical service in reva",
+        "hospital in reva",
+        "is there medical service",
+        "doctor in campus",
+        "clinic in college"
+      ],
+      "responses": [
+        "Yes, REVA has a 24/7 healthcare center with doctors and ambulance services."
+      ]
+    },
+    {
+      "tag": "transport_facility_info",
+      "patterns": [
+        "Is transport available",
+        "Bus facility",
+        "College transport"
+      ],
+      "responses": [
+        "Yes, REVA provides transport facilities covering major parts of Bengaluru."
+      ]
+    },
+    {
+      "tag": "auditorium_facility",
+      "patterns": [
+        "Are there auditoriums",
+        "Event halls",
+        "Auditorium facilities"
+      ],
+      "responses": [
+        "REVA has multiple auditoriums including Kuvempu, Chanakya, and Open Air Theatre."
+      ]
+    },
+    {
+      "tag": "green_campus_info",
+      "patterns": [
+        "Green campus",
+        "Eco friendly campus",
+        "Campus environment"
+      ],
+      "responses": [
+        "REVA has a green campus with parks and open spaces for relaxation."
+      ]
+    },
+    {
+      "tag": "food_court_info",
+      "patterns": [
+        "Food court",
+        "Cafeteria details",
+        "Food options"
+      ],
+      "responses": [
+        "REVA has a large food court offering multiple cuisines and dining options."
+      ]
+    },
+    {
+      "tag": "sports_outdoor_info",
+      "patterns": [
+        "Outdoor sports",
+        "Playground",
+        "Sports ground"
+      ],
+      "responses": [
+        "Outdoor sports include cricket, football, athletics, basketball, and tennis."
+      ]
+    },
+    {
+      "tag": "sports_indoor_info",
+      "patterns": [
+        "Indoor sports",
+        "Games inside",
+        "Indoor activities"
+      ],
+      "responses": [
+        "Indoor sports include badminton, table tennis, chess, and carrom."
+      ]
+    },
+    {
+      "tag": "gym_facility_info",
+      "patterns": [
+        "Is gym available",
+        "Fitness center",
+        "Gym details"
+      ],
+      "responses": [
+        "Yes, REVA has a modern gymnasium for students."
+      ]
+    },
+    {
+      "tag": "cse_department_info",
+      "patterns": [
+        "Where is CSE department",
+        "Department location",
+        "CS department location"
+      ],
+      "responses": [
+        "The CSE department is located in Swami Vivekananda Block (SVB)."
+      ]
+    },
+    {
+      "tag": "hod_csse_info",
+      "patterns": [
+        "Who is HOD of CSSE",
+        "Head of department CSE",
+        "CS department head"
+      ],
+      "responses": [
+        "The HOD of CSSE department is Dr. B Muthukumar."
+      ]
+    },
+    {
+      "tag": "number_of_departments_info",
+      "patterns": [
+        "How many departments",
+        "Departments in REVA",
+        "Faculties in REVA"
+      ],
+      "responses": [
+        "REVA has multiple faculties including Engineering, Management, Science, Arts, Law, Design, and Architecture."
+      ]
+    },
+    {
+      "tag": "event_reva_rift_info",
+      "patterns": [
+        "What is REVA RIFT",
+        "Tell me about RIFT",
+        "Tech fest REVA"
+      ],
+      "responses": [
+        "REVA RIFT is a national-level tech fest with hackathons, workshops, and events."
+      ]
+    },
+    {
+      "tag": "event_revotsava_info",
+      "patterns": [
+        "What is revotsava",
+        "Cultural fest",
+        "College fest"
+      ],
+      "responses": [
+        "Revotsava is a cultural fest with music, dance, and competitions."
+      ]
+    },
+    {
+      "tag": "event_dates_info",
+      "patterns": [
+        "Event dates",
+        "When are tech fests",
+        "Upcoming fest dates"
+      ],
+      "responses": [
+        "Tech fests include R Summit (March 9-11), Rise (April 8-9), and Revolt (April 10-11)."
+      ]
+    },
+    {
+      "tag": "admission_process_info",
+      "patterns": [
+        "Admission process",
+        "How to apply",
+        "Admission steps"
+      ],
+      "responses": [
+        "Admissions are based on entrance exams and academic merit followed by counseling."
+      ]
+    },
+    {
+      "tag": "documents_required_info",
+      "patterns": [
+        "Documents required",
+        "Admission documents",
+        "Required certificates"
+      ],
+      "responses": [
+        "Documents include 10th, 12th marksheets, ID proof, photos, and entrance exam scores."
+      ]
+    },
+    {
+      "tag": "eligibility_btech_info",
+      "patterns": [
+        "Eligibility for btech",
+        "Btech requirements",
+        "Criteria for engineering"
+      ],
+      "responses": [
+        "Students must pass 12th with Physics and Mathematics with minimum required marks."
+      ]
+    },
+    {
+      "tag": "nlp_definition",
+      "patterns": [
+        "What is NLP",
+        "Define natural language processing",
+        "NLP meaning"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a field of AI that enables machines to understand and process human language."
+      ]
+    },
+    {
+      "tag": "tokenization",
+      "patterns": [
+        "What is tokenization",
+        "Tokenization meaning",
+        "Split text into tokens"
+      ],
+      "responses": [
+        "Tokenization is the process of breaking text into smaller units like words or sentences."
+      ]
+    },
+    {
+      "tag": "stemming",
+      "patterns": [
+        "What is stemming",
+        "Stemming in NLP",
+        "Root word extraction"
+      ],
+      "responses": [
+        "Stemming reduces words to their root form by removing suffixes."
+      ]
+    },
+    {
+      "tag": "lemmatization",
+      "patterns": [
+        "What is lemmatization",
+        "Lemmatization meaning",
+        "Base word conversion"
+      ],
+      "responses": [
+        "Lemmatization converts words to their base or dictionary form."
+      ]
+    },
+    {
+      "tag": "bag_of_words",
+      "patterns": [
+        "What is bag of words",
+        "BOW model",
+        "Text vectorization"
+      ],
+      "responses": [
+        "Bag of Words converts text into numerical vectors based on word frequency."
+      ]
+    },
+    {
+      "tag": "nltk_tool",
+      "patterns": [
+        "What is NLTK",
+        "NLTK usage",
+        "Python NLP library"
+      ],
+      "responses": [
+        "NLTK is a Python library used for natural language processing tasks."
+      ]
+    },
+    {
+      "tag": "wordnet",
+      "patterns": [
+        "What is WordNet",
+        "WordNet usage",
+        "Lexical database"
+      ],
+      "responses": [
+        "WordNet is a lexical database that groups words into sets of synonyms."
+      ]
+    },
+    {
+      "tag": "regular_expressions",
+      "patterns": [
+        "What are regex",
+        "Regular expressions",
+        "Pattern matching"
+      ],
+      "responses": [
+        "Regular expressions are patterns used to match and process text."
+      ]
+    },
+    {
+      "tag": "pos_tagging",
+      "patterns": [
+        "What is POS tagging",
+        "Part of speech tagging",
+        "Word tagging"
+      ],
+      "responses": [
+        "POS tagging assigns grammatical labels like noun or verb to words."
+      ]
+    },
+    {
+      "tag": "n_grams",
+      "patterns": [
+        "What are n grams",
+        "N gram model",
+        "Bigram trigram"
+      ],
+      "responses": [
+        "N-grams are sequences of words used for text analysis."
+      ]
+    },
+    {
+      "tag": "naive_bayes",
+      "patterns": [
+        "What is naive bayes",
+        "Naive bayes classifier",
+        "Bayes model"
+      ],
+      "responses": [
+        "Naive Bayes is a probabilistic classifier used for text classification."
+      ]
+    },
+    {
+      "tag": "decision_tree",
+      "patterns": [
+        "What is decision tree",
+        "Decision tree classifier",
+        "Tree model"
+      ],
+      "responses": [
+        "Decision tree is a model that makes decisions based on feature conditions."
+      ]
+    },
+    {
+      "tag": "text_summarization",
+      "patterns": [
+        "What is text summarization",
+        "Summarization in NLP",
+        "Short summary generation"
+      ],
+      "responses": [
+        "Text summarization is the process of creating a short version of a text."
+      ]
+    },
+    {
+      "tag": "topic_modeling",
+      "patterns": [
+        "What is topic modeling",
+        "LDA LSI meaning",
+        "Topic extraction"
+      ],
+      "responses": [
+        "Topic modeling identifies hidden topics in a collection of documents."
+      ]
+    },
+    {
+      "tag": "cosine_similarity",
+      "patterns": [
+        "What is cosine similarity",
+        "Similarity measure",
+        "Text similarity"
+      ],
+      "responses": [
+        "Cosine similarity measures similarity between two text vectors."
+      ]
+    },
+    {
+      "tag": "kmeans_clustering",
+      "patterns": [
+        "What is k means",
+        "Clustering algorithm",
+        "Kmeans meaning"
+      ],
+      "responses": [
+        "K-means is a clustering algorithm that groups similar data points."
+      ]
+    },
+    {
+      "tag": "hierarchical_clustering",
+      "patterns": [
+        "What is hierarchical clustering",
+        "Agglomerative clustering",
+        "Ward clustering"
+      ],
+      "responses": [
+        "Hierarchical clustering builds nested clusters using similarity."
+      ]
+    },
+    {
+      "tag": "semantic_analysis",
+      "patterns": [
+        "What is semantic analysis",
+        "Meaning analysis",
+        "Semantic NLP"
+      ],
+      "responses": [
+        "Semantic analysis focuses on understanding the meaning of text."
+      ]
+    },
+    {
+      "tag": "named_entity_recognition",
+      "patterns": [
+        "What is NER",
+        "Named entity recognition",
+        "Entity extraction"
+      ],
+      "responses": [
+        "NER identifies entities like names, locations, and organizations in text."
+      ]
+    },
+    {
+      "tag": "sentiment_analysis",
+      "patterns": [
+        "What is sentiment analysis",
+        "Opinion mining",
+        "Emotion detection"
+      ],
+      "responses": [
+        "Sentiment analysis determines whether text is positive, negative, or neutral."
+      ]
+    },
+    {
+      "tag": "imdb_dataset",
+      "patterns": [
+        "What is imdb dataset",
+        "Movie review dataset",
+        "Sentiment dataset"
+      ],
+      "responses": [
+        "IMDb dataset is used for sentiment analysis of movie reviews."
+      ]
+    },
+    {
+      "tag": "text_normalization",
+      "patterns": [
+        "What is text normalization",
+        "Normalize text",
+        "Clean text"
+      ],
+      "responses": [
+        "Text normalization converts text into a standard format."
+      ]
+    },
+    {
+      "tag": "feature_engineering",
+      "patterns": [
+        "What is feature engineering",
+        "Feature extraction",
+        "Data features"
+      ],
+      "responses": [
+        "Feature engineering extracts useful information from raw data."
+      ]
+    },
+    {
+      "tag": "information_retrieval",
+      "patterns": [
+        "What is information retrieval",
+        "Search system",
+        "IR system"
+      ],
+      "responses": [
+        "Information retrieval is the process of finding relevant information from data."
+      ]
+    },
+    {
+      "tag": "document_similarity",
+      "patterns": [
+        "Document similarity",
+        "Compare documents",
+        "Text comparison"
+      ],
+      "responses": [
+        "Document similarity measures how similar two texts are."
+      ]
+    },
+    {
+      "tag": "text_rank",
+      "patterns": [
+        "What is text rank",
+        "Text rank algorithm",
+        "Summarization algorithm"
+      ],
+      "responses": [
+        "TextRank is an algorithm used for text summarization."
+      ]
+    },
+    {
+      "tag": "ece_department_info",
+      "patterns": [
+        "Tell me about ECE department",
+        "What is electronics and communication engineering",
+        "ECE details",
+        "Explain ECE",
+        "About electronics department",
+        "What is ECE",
+        "Electronics and communication",
+        "ECE branch"
+      ],
+      "responses": [
+        "Electronics and Communication Engineering (ECE) focuses on electronics, communication systems, signal processing, and embedded systems."
+      ]
+    },
+    {
+      "tag": "ece_subjects",
+      "patterns": [
+        "What subjects are in ECE",
+        "ECE syllabus",
+        "ECE core subjects",
+        "Subjects in electronics",
+        "ECE course subjects",
+        "What do ECE students study",
+        "Electronics subjects"
+      ],
+      "responses": [
+        "ECE subjects include Digital Electronics, Analog Circuits, Signals and Systems, Communication Systems, VLSI, and Embedded Systems."
+      ]
+    },
+    {
+      "tag": "ece_career",
+      "patterns": [
+        "Career in ECE",
+        "Jobs after ECE",
+        "ECE career options",
+        "ECE job opportunities",
+        "Future in ECE",
+        "ECE scope"
+      ],
+      "responses": [
+        "ECE graduates can work in telecom, semiconductor industry, embedded systems, IoT, and software companies."
+      ]
+    },
+    {
+      "tag": "ece_labs",
+      "patterns": [
+        "ECE labs",
+        "Electronics labs",
+        "ECE practical labs"
+      ],
+      "responses": [
+        "ECE labs include Digital Lab, Analog Lab, Communication Lab, VLSI Lab, and Embedded Systems Lab."
+      ]
+    },
+    {
+      "tag": "ece_projects",
+      "patterns": [
+        "ECE projects",
+        "Electronics projects",
+        "Final year ECE project"
+      ],
+      "responses": [
+        "ECE projects involve IoT systems, communication devices, signal processing, and embedded applications."
+      ]
+    },
+    {
+      "tag": "ece_skills",
+      "patterns": [
+        "Skills for ECE",
+        "What skills needed for ECE",
+        "ECE skills"
+      ],
+      "responses": [
+        "ECE students need skills in circuit design, programming, signal processing, and hardware systems."
+      ]
+    },
+    {
+      "tag": "ece_vs_cse",
+      "patterns": [
+        "ECE vs CSE",
+        "Difference between ECE and CSE",
+        "Which is better ECE or CSE"
+      ],
+      "responses": [
+        "ECE focuses on hardware and communication systems, while CSE focuses on software and programming."
+      ]
+    },
+    {
+      "tag": "ece_future_scope",
+      "patterns": [
+        "Future scope of ECE",
+        "Is ECE good",
+        "Scope in electronics"
+      ],
+      "responses": [
+        "ECE has strong future scope in IoT, 5G, AI hardware, and embedded systems."
+      ]
+    },
+    {
+      "tag": "eee_department",
+      "patterns": [
+        "Tell me about EEE",
+        "Electrical engineering details",
+        "EEE department"
+      ],
+      "responses": [
+        "Electrical and Electronics Engineering focuses on power systems, electrical machines, and control systems."
+      ]
+    },
+    {
+      "tag": "eee_subjects",
+      "patterns": [
+        "EEE subjects",
+        "Electrical syllabus",
+        "Core subjects in EEE"
+      ],
+      "responses": [
+        "EEE subjects include Power Systems, Electrical Machines, Control Systems, and Power Electronics."
+      ]
+    },
+    {
+      "tag": "mechanical_department",
+      "patterns": [
+        "Mechanical engineering details",
+        "Tell me about mechanical",
+        "ME department"
+      ],
+      "responses": [
+        "Mechanical Engineering deals with machines, thermodynamics, manufacturing, and design."
+      ]
+    },
+    {
+      "tag": "mechanical_subjects",
+      "patterns": [
+        "Mechanical subjects",
+        "ME syllabus",
+        "Mechanical core subjects"
+      ],
+      "responses": [
+        "Mechanical subjects include Thermodynamics, Fluid Mechanics, Machine Design, and Manufacturing."
+      ]
+    },
+    {
+      "tag": "civil_department",
+      "patterns": [
+        "Civil engineering details",
+        "Civil department",
+        "What is civil engineering"
+      ],
+      "responses": [
+        "Civil Engineering focuses on construction, structures, roads, and infrastructure development."
+      ]
+    },
+    {
+      "tag": "civil_subjects",
+      "patterns": [
+        "Civil subjects",
+        "Civil syllabus",
+        "Core civil topics"
+      ],
+      "responses": [
+        "Civil subjects include Structural Engineering, Geotechnical Engineering, and Environmental Engineering."
+      ]
+    },
+    {
+      "tag": "ai_department",
+      "patterns": [
+        "AI department",
+        "Artificial intelligence course",
+        "AI engineering details"
+      ],
+      "responses": [
+        "AI focuses on machine learning, deep learning, data science, and intelligent systems."
+      ]
+    },
+    {
+      "tag": "ai_subjects",
+      "patterns": [
+        "AI subjects",
+        "Artificial intelligence syllabus",
+        "ML topics"
+      ],
+      "responses": [
+        "AI subjects include Machine Learning, Deep Learning, NLP, Computer Vision, and Data Science."
+      ]
+    },
+    {
+      "tag": "iot_department",
+      "patterns": [
+        "IoT department",
+        "Internet of things course",
+        "IoT details"
+      ],
+      "responses": [
+        "IoT focuses on connected devices, sensors, and smart systems."
+      ]
+    },
+    {
+      "tag": "iot_subjects",
+      "patterns": [
+        "IoT subjects",
+        "IoT syllabus",
+        "IoT topics"
+      ],
+      "responses": [
+        "IoT includes sensors, embedded systems, cloud integration, and networking."
+      ]
+    },
+    {
+      "tag": "law_school",
+      "patterns": [
+        "Law school REVA",
+        "Legal studies",
+        "Law department"
+      ],
+      "responses": [
+        "REVA School of Legal Studies offers law programs focusing on legal education and practice."
+      ]
+    },
+    {
+      "tag": "design_school",
+      "patterns": [
+        "Design school REVA",
+        "School of design",
+        "Design courses"
+      ],
+      "responses": [
+        "School of Design offers creative programs in product design, UI/UX, and visual arts."
+      ]
+    },
+    {
+      "tag": "business_school",
+      "patterns": [
+        "Business school REVA",
+        "RBS",
+        "Management studies"
+      ],
+      "responses": [
+        "REVA Business School offers programs in management, finance, marketing, and business analytics."
+      ]
+    },
+    {
+      "tag": "science_department",
+      "patterns": [
+        "Science department",
+        "Applied sciences",
+        "Biotech physics chemistry"
+      ],
+      "responses": [
+        "Faculty of Science includes biotechnology, chemistry, physics, and mathematics."
+      ]
+    },
+    {
+      "tag": "arts_department",
+      "patterns": [
+        "Arts department",
+        "Humanities",
+        "Liberal studies"
+      ],
+      "responses": [
+        "Arts and Humanities include psychology, languages, media, and social sciences."
+      ]
+    },
+    {
+      "tag": "constitution_unit1",
+      "patterns": [
+        "constitution unit 1 syllabus",
+        "indian constitution unit 1",
+        "constitution 1st unit"
+      ],
+      "responses": [
+        "Unit 1 covers salient features of Indian Constitution, Fundamental Rights and Duties, Directive Principles, Legislature, Executive, Judiciary, Parliament structure, Council of Ministers, Prime Minister, Speaker, and bill passing process."
+      ]
+    },
+    {
+      "tag": "constitution_unit2",
+      "patterns": [
+        "constitution unit 2 syllabus",
+        "indian constitution unit 2",
+        "constitution 2nd unit"
+      ],
+      "responses": [
+        "Unit 2 includes Human Rights, UDHR, protection at global, regional and national levels, vulnerable groups, and Human Values such as truth, honesty, loyalty, love, peace, and ethics vs morals."
+      ]
+    },
+    {
+      "tag": "constitution_unit3",
+      "patterns": [
+        "constitution unit 3 syllabus",
+        "indian constitution unit 3",
+        "constitution 3rd unit"
+      ],
+      "responses": [
+        "Unit 3 covers Ethics including meaning, evolution, Aristotelian ethics, utilitarianism, Kantianism, professional, personal and business ethics, gender equality, and duties of employees and employers."
+      ]
+    },
+    {
+      "tag": "constitution_unit4",
+      "patterns": [
+        "constitution unit 4 syllabus",
+        "indian constitution unit 4",
+        "constitution 4th unit"
+      ],
+      "responses": [
+        "Unit 4 includes Engineering Ethics, consumer protection, environmental ethics, corporate social responsibility, ethical codes, and ethical companies."
+      ]
+    },
+    {
+      "tag": "uhv_unit1",
+      "patterns": [
+        "uhv unit 1 syllabus",
+        "universal human values unit 1",
+        "uhv first unit"
+      ],
+      "responses": [
+        "Unit 1 covers happiness, prosperity, human aspirations, harmony between self and body, needs and co-existence."
+      ]
+    },
+    {
+      "tag": "uhv_unit2",
+      "patterns": [
+        "uhv unit 2 syllabus",
+        "universal human values unit 2",
+        "uhv second unit"
+      ],
+      "responses": [
+        "Unit 2 includes relationships such as trust, respect, affection, care, guidance, reverence, gratitude, love, justice, intention and competence."
+      ]
+    },
+    {
+      "tag": "uhv_unit3",
+      "patterns": [
+        "uhv unit 3 syllabus",
+        "universal human values unit 3",
+        "uhv third unit"
+      ],
+      "responses": [
+        "Unit 3 explains harmony in nature, ecosystem balance, pollution, resource depletion and sustainability."
+      ]
+    },
+    {
+      "tag": "uhv_unit4",
+      "patterns": [
+        "uhv unit 4 syllabus",
+        "universal human values unit 4",
+        "uhv fourth unit"
+      ],
+      "responses": [
+        "Unit 4 covers ethical human conduct, professional ethics, universal order and societal responsibility."
+      ]
+    },
+    {
+      "tag": "cv_unit1",
+      "patterns": [
+        "computer vision unit 1",
+        "cv unit 1 syllabus",
+        "cv first unit"
+      ],
+      "responses": [
+        "Unit 1 includes linear filters, convolution, Fourier transform, sampling, aliasing, image gradients, SIFT, HOG and texture analysis."
+      ]
+    },
+    {
+      "tag": "cv_unit2",
+      "patterns": [
+        "computer vision unit 2",
+        "cv unit 2 syllabus",
+        "cv second unit"
+      ],
+      "responses": [
+        "Unit 2 covers segmentation techniques like clustering, K-means, mean shift, watershed and background subtraction."
+      ]
+    },
+    {
+      "tag": "cv_unit3",
+      "patterns": [
+        "computer vision unit 3",
+        "cv unit 3 syllabus",
+        "cv third unit"
+      ],
+      "responses": [
+        "Unit 3 includes image classification, registration, feature extraction and machine learning techniques."
+      ]
+    },
+    {
+      "tag": "cv_unit4",
+      "patterns": [
+        "computer vision unit 4",
+        "cv unit 4 syllabus",
+        "cv fourth unit"
+      ],
+      "responses": [
+        "Unit 4 covers object detection, sliding window, deformable objects and recognition techniques."
+      ]
+    },
+    {
+      "tag": "cn_unit1",
+      "patterns": [
+        "computer networks unit 1",
+        "cn unit 1 syllabus",
+        "cn first unit"
+      ],
+      "responses": [
+        "Unit 1 includes OSI model, TCP/IP, signals, modulation and transmission."
+      ]
+    },
+    {
+      "tag": "cn_unit2",
+      "patterns": [
+        "computer networks unit 2",
+        "cn unit 2 syllabus",
+        "cn second unit"
+      ],
+      "responses": [
+        "Unit 2 covers error detection, multiplexing, MAC protocols, networking devices and VLAN."
+      ]
+    },
+    {
+      "tag": "cn_unit3",
+      "patterns": [
+        "computer networks unit 3",
+        "cn unit 3 syllabus",
+        "cn third unit"
+      ],
+      "responses": [
+        "Unit 3 includes Ethernet, WiFi, Bluetooth, IPv4, IPv6 and routing protocols."
+      ]
+    },
+    {
+      "tag": "cn_unit4",
+      "patterns": [
+        "computer networks unit 4",
+        "cn unit 4 syllabus",
+        "cn fourth unit"
+      ],
+      "responses": [
+        "Unit 4 covers TCP, UDP, congestion control, DNS and client-server communication."
+      ]
+    },
+    {
+      "tag": "ml_unit1",
+      "patterns": [
+        "machine learning unit 1",
+        "ml unit 1 syllabus",
+        "ml first unit"
+      ],
+      "responses": [
+        "Unit 1 includes ML basics, data preprocessing, evaluation metrics and applications."
+      ]
+    },
+    {
+      "tag": "ml_unit2",
+      "patterns": [
+        "machine learning unit 2",
+        "ml unit 2 syllabus",
+        "ml second unit"
+      ],
+      "responses": [
+        "Unit 2 covers classification algorithms like decision tree, KNN, SVM, logistic regression and Naive Bayes."
+      ]
+    },
+    {
+      "tag": "ml_unit3",
+      "patterns": [
+        "machine learning unit 3",
+        "ml unit 3 syllabus",
+        "ml third unit"
+      ],
+      "responses": [
+        "Unit 3 includes regression and clustering such as linear regression, K-means and hierarchical clustering."
+      ]
+    },
+    {
+      "tag": "ml_unit4",
+      "patterns": [
+        "machine learning unit 4",
+        "ml unit 4 syllabus",
+        "ml fourth unit"
+      ],
+      "responses": [
+        "Unit 4 covers neural networks, perceptron, activation functions and gradient descent."
+      ]
+    },
+    {
+      "tag": "bigdata_unit1",
+      "patterns": [
+        "big data unit 1",
+        "bigdata unit 1 syllabus",
+        "big data first unit"
+      ],
+      "responses": [
+        "Unit 1 covers big data concepts, characteristics, data sources and architecture."
+      ]
+    },
+    {
+      "tag": "bigdata_unit2",
+      "patterns": [
+        "big data unit 2",
+        "bigdata unit 2 syllabus",
+        "big data second unit"
+      ],
+      "responses": [
+        "Unit 2 includes Hadoop, HDFS and MapReduce."
+      ]
+    },
+    {
+      "tag": "bigdata_unit3",
+      "patterns": [
+        "big data unit 3",
+        "bigdata unit 3 syllabus",
+        "big data third unit"
+      ],
+      "responses": [
+        "Unit 3 covers Spark, NoSQL databases and data processing."
+      ]
+    },
+    {
+      "tag": "bigdata_unit4",
+      "patterns": [
+        "big data unit 4",
+        "bigdata unit 4 syllabus",
+        "big data fourth unit"
+      ],
+      "responses": [
+        "Unit 4 includes data analytics, visualization and real-time processing."
+      ]
+    },
+    {
+      "tag": "nlp_unit1",
+      "patterns": [
+        "nlp unit 1",
+        "nlp unit 1 syllabus",
+        "nlp first unit"
+      ],
+      "responses": [
+        "Unit 1 covers language processing, python basics, text processing, corpora, WordNet and NLTK."
+      ]
+    },
+    {
+      "tag": "nlp_unit2",
+      "patterns": [
+        "nlp unit 2",
+        "nlp unit 2 syllabus",
+        "nlp second unit"
+      ],
+      "responses": [
+        "Unit 2 includes tagging, n-grams, dictionaries, classification, Naive Bayes and decision trees."
+      ]
+    },
+    {
+      "tag": "nlp_unit3",
+      "patterns": [
+        "nlp unit 3",
+        "nlp unit 3 syllabus",
+        "nlp third unit"
+      ],
+      "responses": [
+        "Unit 3 covers text summarization, topic modeling, similarity, clustering and retrieval."
+      ]
+    },
+    {
+      "tag": "nlp_unit4",
+      "patterns": [
+        "nlp unit 4",
+        "nlp unit 4 syllabus",
+        "nlp fourth unit"
+      ],
+      "responses": [
+        "Unit 4 includes semantic analysis, WordNet relations, NER and sentiment analysis."
+      ]
+    },
+    {
+      "tag": "academic_advisor",
+      "patterns": [
+        "Who is my academic advisor",
+        "How to contact faculty advisor",
+        "Academic advisor details",
+        "Faculty advisor",
+        "Class advisor"
+      ],
+      "responses": [
+        "You can find faculty and advisor details at: https://www.reva.edu.in/school-member"
+      ]
+    },
+    {
+      "tag": "tutoring_support",
+      "patterns": [
+        "Is extra coaching available",
+        "Remedial classes",
+        "Tutoring help",
+        "Extra coaching",
+        "Academic support classes"
+      ],
+      "responses": [
+        "Yes, extra coaching and remedial classes are available for students who need academic support."
+      ]
+    },
+    {
+      "tag": "revaluation_process_new",
+      "patterns": [
+        "How to apply for revaluation",
+        "Revaluation process",
+        "Grade appeal",
+        "Apply for rechecking",
+        "Paper revaluation"
+      ],
+      "responses": [
+        "Students can apply for revaluation through the student portal after results are announced."
+      ]
+    },
+    {
+      "tag": "academic_probation",
+      "patterns": [
+        "What happens if I fail",
+        "Academic probation rules",
+        "Detainment rules",
+        "Failed subjects what to do",
+        "Year back rules"
+      ],
+      "responses": [
+        "If you fail subjects, you may need to clear them through supplementary exams and follow university academic rules."
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "Is counseling available",
+        "Mental health support",
+        "Counselor in REVA",
+        "Psychologist available",
+        "Student counseling"
+      ],
+      "responses": [
+        "Yes, REVA provides counseling and mental health support services for students."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "Career counseling",
+        "Resume help",
+        "Interview preparation",
+        "Career guidance",
+        "Job placement support"
+      ],
+      "responses": [
+        "REVA provides career services including resume building, interview preparation, and career counseling."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Scholarships available",
+        "Merit scholarship",
+        "How to apply scholarship",
+        "Scholarship details",
+        "Financial scholarship"
+      ],
+      "responses": [
+        "REVA offers scholarships based on merit and eligibility criteria. Students can apply through the university portal."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Education loan help",
+        "Fee installment options",
+        "Financial support",
+        "Loan assistance",
+        "Fee payment help"
+      ],
+      "responses": [
+        "Students can avail education loan assistance and fee installment options through the university."
+      ]
+    },
+    {
+      "tag": "student_id_card",
+      "patterns": [
+        "How to get student ID",
+        "Lost ID card",
+        "ID card replacement",
+        "Student identity card",
+        "College ID"
+      ],
+      "responses": [
+        "Students can collect ID cards from administration. For lost cards, request a replacement through the office."
+      ]
+    },
+    {
+      "tag": "transport_info_new",
+      "patterns": [
+        "Bus routes",
+        "Transport timing",
+        "College bus timing",
+        "Bus pickup time",
+        "Transport facility details"
+      ],
+      "responses": [
+        "Transport pickup is around 7:30 AM and drop is around 4:30 PM. Transport fee is approximately 70,000 per year."
+      ]
+    },
+    {
+      "tag": "exam_fee",
+      "patterns": [
+        "Exam fee",
+        "How much exam fee",
+        "Exam fee payment",
+        "Semester exam fee",
+        "Examination fee amount"
+      ],
+      "responses": [
+        "The exam fee is approximately 3000 and can be paid through the student portal: https://studentportal.universitysolutions.in"
+      ]
+    },
+    {
+      "tag": "hall_ticket",
+      "patterns": [
+        "How to download hall ticket",
+        "Admit card download",
+        "Exam hall ticket",
+        "Download admit card",
+        "Hall ticket link"
+      ],
+      "responses": [
+        "You can download your hall ticket from SLCM portal: https://reva-university.my.site.com/StudentPortal/s/"
+      ]
+    },
+    {
+      "tag": "exam_results_dates",
+      "patterns": [
+        "Result date",
+        "When results will come",
+        "Exam results",
+        "Result announcement",
+        "SEE results date"
+      ],
+      "responses": [
+        "For specific semester results, ask about that semester (e.g., '6th sem results', '7th sem results')."
+      ]
+    },
+    {
+      "tag": "sem6_results",
+      "patterns": [
+        "6th sem results",
+        "6th semester result date",
+        "6th sem result",
+        "6 sem results",
+        "sixth sem results"
+      ],
+      "responses": [
+        "6th sem SEE results will be announced on 15 June 2026."
+      ]
+    },
+    {
+      "tag": "sem7_results",
+      "patterns": [
+        "7th sem results",
+        "7th semester result date",
+        "7th sem result",
+        "7 sem results",
+        "seventh sem results"
+      ],
+      "responses": [
+        "7th sem SEE results will be announced on 22 January 2027."
+      ]
+    },
+    {
+      "tag": "sem8_results",
+      "patterns": [
+        "8th sem results",
+        "8th semester result date",
+        "8th sem result",
+        "8 sem results",
+        "eighth sem results"
+      ],
+      "responses": [
+        "8th sem SEE results will be announced on 12 June 2027."
+      ]
+    },
+    {
+      "tag": "lms_login",
+      "patterns": [
+        "LMS login",
+        "How to login LMS",
+        "LMS portal",
+        "Learning management system",
+        "LMS access"
+      ],
+      "responses": [
+        "You can access LMS here: https://reva-university.my.site.com/StudentPortal/s/"
+      ]
+    },
+    {
+      "tag": "student_portal_new",
+      "patterns": [
+        "Student portal",
+        "Portal login",
+        "Access portal",
+        "Student login",
+        "University portal"
+      ],
+      "responses": [
+        "Access student portal here: https://studentportal.universitysolutions.in"
+      ]
+    },
+    {
+      "tag": "wifi_details",
+      "patterns": [
+        "WiFi password",
+        "Campus WiFi",
+        "Internet access",
+        "Wi-Fi credentials",
+        "Campus internet"
+      ],
+      "responses": [
+        "WiFi credentials: Username: Revaguest, Password: Revaguest@2025!. Connect to REVA Staff network."
+      ]
+    },
+    {
+      "tag": "placement_process_new",
+      "patterns": [
+        "Placement process",
+        "How placements work",
+        "Placement eligibility",
+        "Campus recruitment",
+        "Placement procedure"
+      ],
+      "responses": [
+        "Placements include eligibility criteria, training, and recruitment drives conducted by the placement cell."
+      ]
+    },
+    {
+      "tag": "resume_help",
+      "patterns": [
+        "Resume format",
+        "CV guidelines",
+        "Resume building",
+        "Make resume",
+        "CV format"
+      ],
+      "responses": [
+        "Students receive guidance on resume building and CV preparation through placement training."
+      ]
+    },
+    {
+      "tag": "mock_interviews",
+      "patterns": [
+        "Mock interviews",
+        "Interview practice",
+        "Placement interviews",
+        "Interview training",
+        "Mock interview rounds"
+      ],
+      "responses": [
+        "Yes, mock interviews are conducted to prepare students for placements."
+      ]
+    },
+    {
+      "tag": "internship_portal",
+      "patterns": [
+        "Internship opportunities",
+        "Internship portal",
+        "How to find internships",
+        "Internship platforms",
+        "Apply for internship"
+      ],
+      "responses": [
+        "Students can find internships through placement cell and platforms like Devfolio and Unstop."
+      ]
+    },
+    {
+      "tag": "chancellor_info",
+      "patterns": [
+        "Who is chancellor",
+        "REVA chancellor",
+        "University head",
+        "Chancellor name",
+        "Chancellor of REVA"
+      ],
+      "responses": [
+        "The Chancellor of REVA University is Shyama Raju."
+      ]
+    },
+    {
+      "tag": "vice_chancellor",
+      "patterns": [
+        "Vice Chancellor REVA",
+        "Who is VC",
+        "University VC",
+        "Vice Chancellor name",
+        "VC of REVA"
+      ],
+      "responses": [
+        "The Vice Chancellor of REVA University is Dr. Sanjay R. Chitnis."
+      ]
+    },
+    {
+      "tag": "naac_rating",
+      "patterns": [
+        "NAAC rating",
+        "Accreditation",
+        "University grade",
+        "NAAC grade",
+        "NAAC accreditation"
+      ],
+      "responses": [
+        "REVA University has NAAC A+ Grade accreditation."
+      ]
+    },
+    {
+      "tag": "nirf_ranking",
+      "patterns": [
+        "NIRF ranking",
+        "Engineering ranking",
+        "Ranking REVA",
+        "NIRF position",
+        "College ranking"
+      ],
+      "responses": [
+        "REVA is ranked in the 201–300 band in NIRF Engineering 2025."
+      ]
+    },
+    {
+      "tag": "revotsava_event",
+      "patterns": [
+        "What is revotsava",
+        "Revotsava details",
+        "Cultural fest",
+        "Revotsava dates",
+        "Revotsava 2026"
+      ],
+      "responses": [
+        "Revotsava is the flagship inter-university fest with 20,000+ students, competitions, workshops, and performances. Dates: 28–30 April 2026."
+      ]
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "ATM location",
+        "Bank on campus",
+        "Where is ATM",
+        "ATM in college",
+        "Cash machine"
+      ],
+      "responses": [
+        "ATM is located at the entrance of the college campus. Karnataka Bank is available."
+      ]
+    },
+    {
+      "tag": "printing_shop",
+      "patterns": [
+        "Where to print",
+        "Xerox shop",
+        "Print documents",
+        "Printing facility",
+        "Xerox in campus"
+      ],
+      "responses": [
+        "You can print documents at Mimo in CV Raman Block and near food court."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Parking facility",
+        "Vehicle parking",
+        "Two wheeler parking",
+        "Bike parking",
+        "Car parking"
+      ],
+      "responses": [
+        "REVA provides secure parking with dedicated spaces, though it may be limited during peak hours."
+      ]
+    },
+    {
+      "tag": "engineering_courses_reva",
+      "patterns": [
+        "engineering courses in reva",
+        "btech courses in reva",
+        "list engineering branches",
+        "what are engineering streams",
+        "courses in engineering reva",
+        "engineering branches available",
+        "btech specializations",
+        "which engineering courses offered"
+      ],
+      "responses": [
+        "REVA University offers B.Tech programs in Computer Science and Engineering (CSE), AI, Data Science, Cyber Security, IoT, Artificial Intelligence and Machine Learning, Electronics and Communication (ECE), Electrical and Electronics (EEE), Mechanical Engineering, and Civil Engineering."
+      ]
+    },
+    {
+      "tag": "other_courses_reva",
+      "patterns": [
+        "other courses in reva",
+        "non engineering courses",
+        "courses other than engineering",
+        "what courses apart from btech",
+        "arts commerce science courses reva",
+        "management courses",
+        "law courses",
+        "design courses",
+        "science courses"
+      ],
+      "responses": [
+        "REVA University offers courses in Management (BBA, MBA), Commerce (B.Com, M.Com), Science (BSc, MSc, MCA), Arts (BA, MA), Law (BA LLB, BBA LLB), Design (B.Des), Architecture (B.Arch), Allied Health Sciences (BPT), Performing Arts, and PhD programs."
+      ]
+    },
+    {
+      "tag": "group3_director",
+      "patterns": [
+        "director of group 3",
+        "who is director of group 3",
+        "Dr. G Parthasarathy",
+        "group 3 director",
+        "G Parthasarathy",
+        "group 3 head"
+      ],
+      "responses": [
+        "The Director of Group 3 is Dr. G Parthasarathy."
+      ]
+    },
+    {
+      "tag": "bus_fees",
+      "patterns": [
+        "bus fees",
+        "transport fees",
+        "how much is bus fee",
+        "bus fee structure",
+        "college bus charges",
+        "transportation fee",
+        "bus charges",
+        "bus fare"
+      ],
+      "responses": [
+        "The bus fees at REVA University start from 60,000 per year depending on the distance and route."
+      ]
+    },
+    {
+      "tag": "reva_campus",
+      "patterns": [
+        "how is REVA campus",
+        "campus description",
+        "REVA campus details",
+        "campus environment",
+        "campus infrastructure",
+        "campus features",
+        "REVA campus life",
+        "beautiful campus"
+      ],
+      "responses": [
+        "REVA University has a beautiful 45-acre green campus with modern infrastructure including smart classrooms, well-equipped labs, central library, auditoriums, food courts, sports facilities, healthcare center, and transportation services."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "how is student life in REVA",
+        "student life",
+        "life at REVA",
+        "college life",
+        "campus experience",
+        "student activities",
+        "daily life in REVA",
+        "living at REVA"
+      ],
+      "responses": [
+        "Student life at REVA is vibrant with academic activities, technical clubs, cultural events, sports, hackathons, fests like Revotsava, and various student organizations that provide holistic development opportunities."
+      ]
+    },
+    {
+      "tag": "admission_types",
+      "patterns": [
+        "how to get admission in REVA",
+        "admission types",
+        "REVA CET admission",
+        "CET based admission",
+        "management quota",
+        "direct admission",
+        "admission through CET",
+        "admission through management",
+        "how to take admission"
+      ],
+      "responses": [
+        "REVA University offers multiple admission pathways: 1) REVA CET - Appear for REVA Common Entrance Test, 2) Management Quota - Direct admission based on merit, 3) National Level Tests - Through COMED-K, KCET, JEE Main scores. Apply through the official website and attend counseling."
+      ]
+    },
+    {
+      "tag": "nlp_teacher",
+      "patterns": [
+        "who is NLP teacher",
+        "NLP faculty",
+        "NLP professor",
+        "who teaches NLP",
+        "natural language processing teacher",
+        "NLP instructor",
+        "Dr. M. Shobha Rani",
+        "shobha rani",
+        "class teacher of CSSE",
+        "CSSE class teacher",
+        "who is class teacher"
+      ],
+      "responses": [
+        "The Class Teacher of CSSE is Dr. M. Shobha Rani. She also teaches Natural Language Processing in the CSE department."
+      ]
+    },
+    {
+      "tag": "cse_subjects",
+      "patterns": [
+        "subjects of CSE",
+        "CSE subjects list",
+        "computer science subjects",
+        "what subjects in CSE",
+        "CSE syllabus overview",
+        "CSE course subjects",
+        "all CSE subjects",
+        "computer science engineering subjects"
+      ],
+      "responses": [
+        "CSE subjects include Programming in C, C++, Java, Python, Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Software Engineering, AI, Machine Learning, NLP, Computer Vision, Web Technologies, Cloud Computing, Cyber Security, and IoT."
+      ]
+    },
+    {
+      "tag": "csse_cr",
+      "patterns": [
+        "Who is the CR of CSSE",
+        "Class representative of CSSE",
+        "Who is Harish Chawan A",
+        "CSSE CR name",
+        "Class rep CSSE",
+        "CR of computer science"
+      ],
+      "responses": [
+        "Harish Chawan A is the Class Representative (CR) of CSSE."
+      ]
+    }
+  ]
+}
