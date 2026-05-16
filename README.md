@@ -330,4 +330,4 @@ For issues or questions, please contact the development team or raise an issue i
 
 ---
 
-**Built with ❤️ for REVA University Students**
+**Built for REVA University Students**
